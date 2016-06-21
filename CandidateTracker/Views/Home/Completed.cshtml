@@ -1,0 +1,36 @@
+﻿@using CandidateTracker.Data
+@model CandidateTracker.Models.CandidatesViewModel
+
+<h2>@ViewBag.Type</h2>
+<button class="btn btn-success">Toggle Notes</button>
+<table class="table table-hover table-bordered table-striped">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Notes</th>
+    </tr>
+    @foreach (Candidate candidate in Model.Candidates)
+    {
+        <tr>
+            <td>@candidate.FirstName</td>
+            <td>@candidate.LastName</td>
+            <td>@candidate.PhoneNumber</td>
+            <td>@candidate.Email</td>
+            <td>@candidate.Notes</td>
+        </tr>
+    }
+</table>
+
+@section scripts
+{
+    <script>
+        $(function() {
+            $(".btn-success").on('click', function() {
+                $('td:nth-child(5),th:nth-child(5)').toggle();
+            });
+        });
+    </script>
+}
+

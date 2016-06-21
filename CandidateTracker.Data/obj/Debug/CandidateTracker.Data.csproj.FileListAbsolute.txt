@@ -1,0 +1,5 @@
+c:\users\alexfriedman\documents\visual studio 2013\Projects\CandidateTracker\CandidateTracker.Data\bin\Debug\CandidateTracker.Data.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\CandidateTracker\CandidateTracker.Data\bin\Debug\CandidateTracker.Data.pdb
+c:\users\alexfriedman\documents\visual studio 2013\Projects\CandidateTracker\CandidateTracker.Data\obj\Debug\CandidateTracker.Data.csprojResolveAssemblyReference.cache
+c:\users\alexfriedman\documents\visual studio 2013\Projects\CandidateTracker\CandidateTracker.Data\obj\Debug\CandidateTracker.Data.dll
+c:\users\alexfriedman\documents\visual studio 2013\Projects\CandidateTracker\CandidateTracker.Data\obj\Debug\CandidateTracker.Data.pdb
